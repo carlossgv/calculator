@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'digital-7regular';
+    src: url('/styles/fonts/digital-7/digital-7-webfont.woff2') format('woff2'),
+         url('/styles/fonts/digital-7/digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .numberButton {
     height: 100%;
     width: 100%;
@@ -22,12 +30,6 @@ footer {
 }
 
 
-
-
-
-
-
-
 main {
     display: flex;
     flex-direction: row;
@@ -46,8 +48,11 @@ main {
     border: solid;
     text-align: right;
     padding: 0px 5px;
-    
+    font-family: 'digital-7regular', Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
+
+
 
 #dotDiv {
     grid-area: 5 / 2 / span 1 / span 2;
