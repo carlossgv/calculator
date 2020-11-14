@@ -12,12 +12,16 @@ html, body {
     font-family: 'Oswald', sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .numberButton {
     height: 100%;
     width: 100%;
     background-color: #685D79;
     border: none;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -26,7 +30,7 @@ html, body {
     width: 100%;
     background-color: #AB6C82;
     border: none;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .helpButton {
@@ -34,7 +38,7 @@ html, body {
     width: 100%;
     background-color: #D8737f;
     border: none;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 header {
@@ -51,16 +55,15 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50%;
+    height: 700px;
 }
 
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-rows: 2fr repeat(4, 1fr);
-    min-width: 400px;
+    min-width: 600px;
     box-shadow: 5px 10px 40px;
-    border-radius: 5px;   
 }
 
 #display {
@@ -68,10 +71,9 @@ main {
     background-color: #FCBB6D;
     color: white;
     text-align: right;
-    padding: 45px 5px;
+    padding: 70px 20px;
     font-family: 'digital-7regular', Arial, Helvetica, sans-serif;
-    font-size: 70px;
- 
+    font-size: 100px;
 }
 
 
