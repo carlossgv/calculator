@@ -114,7 +114,7 @@ function operatorFunc(operatorSymbol) {
         isOperandClicked = true;
     }
     else if (secondOperand === "0" ||  document.getElementById("display").innerHTML === "0" && operator === "/") {
-        document.getElementById("display").innerHTML = "Cannot divide by zero" 
+        document.getElementById("display").innerHTML = "Infinite bro!" 
     }
     else {
         secondOperand = document.getElementById("display").innerHTML;
@@ -134,7 +134,7 @@ function equal() {
         document.getElementById("display").innerHTML = "0" 
     }
     else if (secondOperand === "0" ||  document.getElementById("display").innerHTML === "0" && operator === "/") {
-        document.getElementById("display").innerHTML = "Cannot divide by zero" 
+        document.getElementById("display").innerHTML = "Infinite bro!" 
     }
     else {
         secondOperand = document.getElementById("display").innerHTML;
