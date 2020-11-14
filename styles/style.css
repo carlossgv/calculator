@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+}
+
 .numberButton {
     height: 100%;
     width: 100%;
@@ -34,14 +38,18 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 50%;
 }
 
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-rows: 2fr repeat(4, 1fr);
-    
+    min-width: 300px;
+        
 }
+
+
 
 #display {
     grid-area: 1 / 1 / span 1 / span 6 ;
@@ -50,6 +58,7 @@ main {
     padding: 0px 5px;
     font-family: 'digital-7regular', Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    
 }
 
 
