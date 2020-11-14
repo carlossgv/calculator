@@ -30,7 +30,7 @@ document.addEventListener("keydown", (e) => {
 });
 
 // Asign click and keypress properties to backspace
-document.getElementById(".").addEventListener("click", () => { backSpace() });
+document.getElementById("backSpace").addEventListener("click", () => { backSpace() });
 document.addEventListener("keydown", (e) => {
     if (e.keyCode === 8) {
         backSpace();
