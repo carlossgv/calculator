@@ -8,25 +8,38 @@
 
 html, body {
     height: 100%;
+    background-color: #475C7A;
+    font-family: 'Oswald', sans-serif;
 }
 
 .numberButton {
     height: 100%;
     width: 100%;
+    background-color: #685D79;
+    border: none;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .operatorButton {
     height: 100%;
     width: 100%;
+    background-color: #AB6C82;
+    border: none;
+    font-size: 25px;
 }
 
 .helpButton {
     height: 100%;
     width: 100%;
+    background-color: #D8737f;
+    border: none;
+    font-size: 30px;
 }
 
 header {
     text-align: center;
+    color: white;
 }
 
 footer {
@@ -45,20 +58,20 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-rows: 2fr repeat(4, 1fr);
-    min-width: 300px;
-        
+    min-width: 400px;
+    box-shadow: 5px 10px 40px;
+    border-radius: 5px;   
 }
-
-
 
 #display {
     grid-area: 1 / 1 / span 1 / span 6 ;
-    border: solid;
+    background-color: #FCBB6D;
+    color: white;
     text-align: right;
-    padding: 0px 5px;
+    padding: 45px 5px;
     font-family: 'digital-7regular', Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    
+    font-size: 70px;
+ 
 }
 
 
@@ -71,10 +84,10 @@ main {
     grid-area: 2 / 5 / span 1 / span 2 ;
 }
 #clearDiv {
-    grid-area: 3 / 5 / span 1 / span 2 ;
+    grid-area: 3 / 5 / span 2 / span 2 ;
 }
 #equalDiv {
-    grid-area: 4 / 5 / span 2 / span 2 ;
+    grid-area: 5 / 5 / span 1 / span 2 ;
 }
 
 
